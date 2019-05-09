@@ -1,0 +1,102 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Radio button</title>
+</head>
+  
+<body>
+  <p>Do you prefer cats or dogs?</p>
+  
+  <form>
+    <label for="dogs">Dogs:</label>
+    <input name="Choose1"id="dogs" type="radio" value="DOGS">
+    
+    <label for="cats">Cats:</label>
+    <input name="Choose1" id="cats" type="radio" value="CATS">
+    <button>GO!</button>
+    
+<p>   
+  <h3>Aramizda en bomba oghlan kimdi?</h3>
+  <select name="color">
+     <option>Javid</option> 
+     <option>Adil</option>
+     <option>Imran</option>                    <option>Babek</option>
+     <option>Turalchik</option>
+    </select>
+    </p>
+  <textarea name="Text here" id="" cols="30" rows="10"></textarea>
+  <button>GO!</button>
+      
+  </form>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="Register.css">
+</head>
+<body>
+<h2>Register</h2>
+<form>
+  <div id=name>
+    <label for="firstname">First Name:</label>
+    <input id="firstname" type="text" placeholder="John" required ="">
+    <label for="lastname">Last Name:</label>
+    <input id="lastname" type="text" placeholder="Smith" required="">
+ 
+  <div>
+    <label for="Male">Male</label>
+    <input id="Male" name="gender" type="radio" value="Male">
+    
+    <label for="Female">Female</label>
+    <input id="Female" name="gender" type="radio" value="Female">
+    
+    <label for="Other">Other</label>
+    <input id="Other" name="gender" type="radio" value="Other"> 
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="your email" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" pattern=".{8,12}" required title="8 to 12 characters">
+  </div>
+  
+  <div>
+    <label>
+   Birthday:
+   <select name="Day">
+     <option value="day">Day</option>  
+     <option value="1">1</option>  
+     <option value="2">2</option>  
+     <option value="3">3</option>  
+     <option value="4">4</option>  
+     <option value="5">5</option>  
+   </select>
+   <select name="Month">
+      <option value="month">Month</option>
+      <option value="1">January</option>
+      <option value="2">February</option>
+      <option value="3">March</option>
+      <option value="4">April</option>
+   </select>
+    <select name="Year">
+      <option value="year">Year</option>
+      <option value="1990">1990</option>
+      <option value="1991">1991</option>
+      <option value="1992">1992</option>
+      <option value="1993">1993</option>
+      <option value="1994">1994</option>
+    </select>
+   </label> 
+    </div>
+  <div>
+    <label for="agreed">I agree to the terms and conditions:</label>
+    <input id="agreed" type="checkbox">
+  </div>
+<button>Submit</button>
+    </form>
+</body>
+</html> 
